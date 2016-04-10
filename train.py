@@ -6,8 +6,8 @@ import numpy as np
 np.random.seed(2 ** 10)
 
 # Prevent reaching to maximum recursion depth in `theano.tensor.grad`
-# import sys
-# sys.setrecursionlimit(2 ** 20)
+import sys
+sys.setrecursionlimit(2800)
 
 from six.moves import range
 
