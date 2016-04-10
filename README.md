@@ -1,7 +1,7 @@
 # Deep Networks with Stochastic Depth
-Rewriting code for "Deep Networks with Stochastic Depth" http://arxiv.org/abs/1603.09382 in Keras.
+Rewriting code for ["Deep Networks with Stochastic Depth"](http://arxiv.org/abs/1603.09382) in Keras.
 
-Original code is at https://github.com/yueatsprograms/Stochastic_Depth.
+Original code is at [yueatsprograms/Stochastic_Depth](https://github.com/yueatsprograms/Stochastic_Depth).
 
 > Fork by @aaamourao
 >
