@@ -3,7 +3,7 @@ Rewriting code for ["Deep Networks with Stochastic Depth"](http://arxiv.org/abs/
 
 Original code is at [yueatsprograms/Stochastic_Depth](https://github.com/yueatsprograms/Stochastic_Depth).
 
-> Fork by @aaamourao
+> Fork by @aaamourao : `adriano-dev` branch
 >
 > mourao.aaa@gmail.com
 >
