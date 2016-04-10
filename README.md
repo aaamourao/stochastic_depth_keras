@@ -3,18 +3,50 @@ Rewriting code for "Deep Networks with Stochastic Depth" http://arxiv.org/abs/16
 
 Original code is at https://github.com/yueatsprograms/Stochastic_Depth.
 
+> Fork by @aaamourao
+>
+> mourao.aaa@gmail.com
+>
+> Encrypted mail: adrianomourao@protonmail.com
 
 ## Usage
+### System requirements
+You need to install the following libraries:
+* Developer version of **libblas**
+* Developer version of **liblapack**
+* Developer version of **libatlas**
+* **GNU Fortran**
 
-1. Install [Theano](https://github.com/Theano/Theano) following its instruction.
-2. Install [Keras](https://github.com/fchollet/keras) (I use new API at `keras-1` branch)
-   ```
-$ cd keras
-$ git checkout keras-1
-$ python setup.py install
+##### Fedora install instructions
+```
+sudo dnf install blas blas-devel lapack lapack-devel atlas atlas-devel gcc-fortran
 ```
 
-3. Just run `python train.py`
+##### Ubuntu install instructions
+```
+sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+```
+
+### [optional] Create a virtual environment
+Run the following commands and replace `<virtual-dir-path>` for your target directory on your workspace
+```
+virtualenv --distribute <virtual-dir-path>
+source <virtual-dir-path>/bin/activate
+```
+
+### Install python requirements
+There are some python libraries required to run this project
+```
+pip install -r requirements.txt
+```
+> Hint : if pip doesn't find Keras library install it manually:
+>
+> ``` pip install git+https://github.com/aaamourao/keras.git@keras-1;
+pip install -r requirements.txt```
+
+### Install python libraries from repo
+
+Just run `python train.py`
 
 
 ## Results
